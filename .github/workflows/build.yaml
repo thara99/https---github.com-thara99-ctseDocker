@@ -60,4 +60,4 @@ jobs:
 
           push: true
 
-          tags: ${{ secrets.DOCKER_USERNAME }}/employee-Management-System:${{ github.sha }}
+          tags: ${{ secrets.DOCKER_USERNAME }}/employee-management-system:${{ github.sha }}
