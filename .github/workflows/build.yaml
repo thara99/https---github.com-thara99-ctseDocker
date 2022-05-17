@@ -60,7 +60,7 @@ jobs:
 
           push: true
 
-          tags: ${{ secrets.DOCKER_USERNAME }}/employee-management-system:${{github.sha}}
+          tags: ${{ secrets.DOCKER_USERNAME }}/employee-management-system:${{ github.sha }}
 
       - name: Update config files in k8s
         run: sed -i.bak 's/{{tag}}/${{ github.sha }}/g' k8s/deploy.yaml && rm k8s/*.bak
