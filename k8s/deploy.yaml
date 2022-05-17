@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: employee-management
-          image: raveenaw/customer-management-application:{{tag}}
+          image: it19148014/employeement-management-system:{{tag}}
           ports:
             - containerPort: 8089

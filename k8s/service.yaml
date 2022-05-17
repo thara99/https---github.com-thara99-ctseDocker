@@ -3,12 +3,12 @@ kind: Service
 metadata:
   creationTimestamp: null
   labels:
-    app: customer-management
-  name: customer-management
+    app: employee-management
+  name: employee-management
 spec:
   ports:
     - protocol: TCP
       port: 8089
   selector:
-    app: customer-management
+    app: employee-management
   type: LoadBalancer

@@ -1,0 +1,8 @@
+{
+    "yaml.schemas": {
+        "https://json.schemastore.org/github-workflow.json": [
+            "file:///d%3A/study/SLIIT/Semesters/4rd%20year%201st%20sem/CTSE/realCtseProject/.github/workflows/build.yml",
+            "file:///d%3A/study/SLIIT/Semesters/4rd%20year%201st%20sem/CTSE/realCtseProject/.github/workflows/build.yaml"
+        ]
+    }
+}
