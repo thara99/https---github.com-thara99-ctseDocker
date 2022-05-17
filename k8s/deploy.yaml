@@ -19,6 +19,6 @@ spec:
     spec:
       containers:
         - name: employee-management
-          image: it19148014/employeement-management-system:{{tag}}
+          image: it19148014/employeement-management-system:19bf6ceb62f65b1460bf239f5d53e3c3cc5b4185 #{{tag}}
           ports:
             - containerPort: 8089
